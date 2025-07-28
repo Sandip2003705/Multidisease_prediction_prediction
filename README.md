@@ -53,6 +53,7 @@ Before running the project, make sure you have:
 ---
 # Folder Structure
         multi-disease-prediction/
+<pre> ```
 │
 ├── diabetes/
 │   ├── diabetes_model.pkl
@@ -72,6 +73,7 @@ Before running the project, make sure you have:
 ├── main_app.py         # UI or main integration file
 ├── requirements.txt    # Required Python packages
 └── README.md
+ ``` </pre>
 
 # How It Works
 1. Data Preprocessing: Each dataset is cleaned and normalized.
@@ -88,33 +90,33 @@ Before running the project, make sure you have:
 # Customization
   You can easily 
 
- > Replace or update the datasets for better quality data
+ - Replace or update the datasets for better quality data
 
- > Tune hyperparameters in GridSearchCV for improved accuracy
+ - Tune hyperparameters in GridSearchCV for improved accuracy
 
- >  Add new diseases by:
+ -  Add new diseases by:
  
- >  Creating a new folder
+ -  Creating a new folder
 
- >  Adding a new model + predict script
+ -  Adding a new model + predict script
 
- >  Integrating into main_app.py
+ -  Integrating into main_app.py
 
 # Limitations
-  Predictions depend heavily on the dataset quality.
+  - Predictions depend heavily on the dataset quality.
 
-  Not suitable for real medical decisions — consult a professional.
+  - Not suitable for real medical decisions — consult a professional.
 
-  Parkinson’s model is based on vocal data — requires proper audio metrics.
+  - Parkinson’s model is based on vocal data — requires proper audio metrics.
 
-  UI is basic; needs improvement for real-world use.
+  - UI is basic; needs improvement for real-world use.
 
 ## Acknowledgment
 
-UCI Machine Learning Repository
+- UCI Machine Learning Repository
 
-Kaggle Datasets
+- Kaggle Datasets
 
-Scikit-learn and Streamlit community
+- Scikit-learn and Streamlit community
 
-Open-source contributors and healthcare researchers
+- Open-source contributors and healthcare researchers
